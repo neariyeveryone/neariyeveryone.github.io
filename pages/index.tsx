@@ -95,9 +95,11 @@ const Home = () => {
             <Badge image="/programs/figma.png" tooltip="Figma" />
             <Badge image="/programs/pycharm.png" tooltip="Pycharm" />
             <Badge image="/programs/ghd.png" tooltip="Github Desktop" />
-            <Badge image="/skills/docker.png" tooltip="Docker Desktop" />
+            <Badge image="/programs/docker.png" tooltip="Docker Desktop" />
             <Badge image="/programs/notion.png" tooltip="Notion" />
             <Badge image="/programs/adobe.ico" tooltip="Adobe Products" />
+            <Badge image="/skills/unity.png" tooltip="Unity" />
+            <Badge image="/programs/invision.svg" tooltip="Invision" />
           </div>
         </div>
         <div className={styles.container} id="contact">
