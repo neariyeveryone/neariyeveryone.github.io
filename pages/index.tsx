@@ -4,6 +4,7 @@ import Head from "next/head";
 import { ContactForm, Project, Badge, Navbar } from "../components";
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect } from "react";
 
 const Home = () => {
   const english = useLanguage();
@@ -13,6 +14,10 @@ const Home = () => {
   const dt = new Date(difference);
   const year = dt.getUTCFullYear();
   const age = Math.abs(year - 1970);
+
+  useEffect(() =>
+    document.addEventListener("contextmenu", (event) => event.preventDefault())
+  );
 
   return (
     <>
