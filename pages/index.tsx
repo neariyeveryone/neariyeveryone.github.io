@@ -104,7 +104,7 @@ const Home = () => {
             <Badge image="/programs/notion.png" tooltip="Notion" />
             <Badge image="/programs/adobe.ico" tooltip="Adobe Products" />
             <Badge image="/skills/unity.png" tooltip="Unity" />
-            <Badge image="/programs/invision.svg" tooltip="Invision" />
+            <Badge image="/programs/invision.svg" tooltip="InVision" />
           </div>
         </div>
         <div className={styles.container} id="contact">
