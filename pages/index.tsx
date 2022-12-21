@@ -78,6 +78,8 @@ const Home = () => {
             <Badge image="/skills/angular.png" tooltip="Angular" />
             <Badge image="/skills/cs.svg" tooltip="C#" />
             <Badge image="/skills/docker.png" tooltip="Docker" />
+            <Badge image="/skills/trpc.png" tooltip="tRPC" />
+            <Badge image="/skills/prisma.png" tooltip="Prisma" />
           </div>
         </div>
         <div className={styles.container} id="projects">
@@ -87,6 +89,11 @@ const Home = () => {
               title={english ? "This Page" : "Diese Seite"}
               tooltip={english ? "Click to view" : "Klicken zum Anschauen"}
               href="https://github.com/neariyeveryone/neariyeveryone.github.io"
+            />
+            <Project
+              title="Relity"
+              tooltip="Click to view"
+              href="https://github.com/Entisy-com/Relity"
             />
           </div>
         </div>
