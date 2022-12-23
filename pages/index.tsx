@@ -55,13 +55,16 @@ const Home = () => {
             <Badge image="/skills/html.png" tooltip="HTML" />
             <Badge image="/skills/css.png" tooltip="CSS" />
             <Badge image="/skills/javascript.png" tooltip="JavaScript" />
+            <Badge image="/skills/python.svg" tooltip="Python" />
+            <Badge image="/skills/java.png" tooltip="Java" />
+            <Badge image="/skills/json.png" tooltip="JSON" />
+            <Badge image="/skills/sqlite.png" tooltip="SQLite" />
+            <Badge image="/skills/cs.svg" tooltip="C#" />
             <Badge image="/skills/github.png" tooltip="Github" />
             <Badge image="/skills/mongo.png" tooltip="MongoDB" />
             <Badge image="/skills/nextjs.png" tooltip="NextJS" />
             <Badge image="/skills/react.png" tooltip="React" />
             <Badge image="/skills/node.png" tooltip="NodeJS" />
-            <Badge image="/skills/java.png" tooltip="Java" />
-            <Badge image="/skills/sqlite.png" tooltip="SQLite" />
             <Badge image="/skills/spigot.png" tooltip="Spigot" />
             <Badge image="/skills/bukkit.png" tooltip="Bukkit" />
             <Badge image="/skills/unity.png" tooltip="Unity" />
@@ -70,13 +73,11 @@ const Home = () => {
             <Badge image="/skills/typescript.png" tooltip="Typescript" />
             <Badge image="/skills/sass.png" tooltip="Sass/Scss" />
             <Badge image="/skills/forge.jpg" tooltip="Forge" />
-            <Badge image="/skills/json.png" tooltip="JSON" />
             <Badge image="/skills/gradle.png" tooltip="Gradle" />
             <Badge image="/skills/maven.png" tooltip="Maven" />
             <Badge image="/skills/express.png" tooltip="express" />
             <Badge image="/skills/passport.png" tooltip="passport" />
             <Badge image="/skills/angular.png" tooltip="Angular" />
-            <Badge image="/skills/cs.svg" tooltip="C#" />
             <Badge image="/skills/docker.png" tooltip="Docker" />
             <Badge image="/skills/trpc.png" tooltip="tRPC" />
             <Badge image="/skills/prisma.png" tooltip="Prisma" />
@@ -94,6 +95,11 @@ const Home = () => {
               title="Relity"
               tooltip="Click to view"
               href="https://github.com/Entisy-com/Relity"
+            />
+            <Project
+              title="Hand Recognition Volume Control"
+              tooltip="Click to view"
+              href="https://github.com/neariyeveryone/HandRecognitionVolumeControl"
             />
           </div>
         </div>
